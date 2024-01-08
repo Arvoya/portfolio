@@ -19,7 +19,8 @@ class Footer extends Component {
         <div className="container">
           <div className="row">
             <div className="col social-links">{networks}</div>
-            <div className="col">
+            <div className="col" style={{ display: 'none' }}> 
+            {/* couldn't get rid of this feature without everything crashing. */}
               <div 
                 onClick={() =>
                   this.props.applyPickedLanguage(
