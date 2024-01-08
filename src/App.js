@@ -58,7 +58,7 @@ class App extends Component {
         this.setState({ resumeData: data });
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        console.log(err);
       },
     });
   }
@@ -72,7 +72,7 @@ class App extends Component {
         this.setState({ sharedData: data }, () => document.title = `${this.state.sharedData.basic_info.name}`);
       }.bind(this),
       error: function (xhr, status, err) {
-        alert(err);
+        console.log(err);
       },
     });
   }
