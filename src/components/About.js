@@ -1,10 +1,17 @@
 import React, { Component } from "react";
 import { Icon } from "@iconify/react";
-import angularIcon from "@iconify/icons-logos/angular-icon";
-import reactIcon from "@iconify/icons-logos/react";
-import vueIcon from "@iconify/icons-logos/vue";
+import yogaIcon from '@iconify/icons-iconoir/yoga';
+import plantIcon from '@iconify/icons-ph/plant';
+import artIcon from '@iconify/icons-mdi/art';
 
 class About extends Component {
+  
+  renderAboutText(about) {
+    return about.split('\n').map((paragraph, index) => (
+      <p key={index}>{paragraph}</p>
+    ));
+  }
+
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
@@ -12,7 +19,11 @@ class About extends Component {
     if (this.props.resumeBasicInfo) {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
-      var about = this.props.resumeBasicInfo.description;
+    }
+
+    let aboutContent = null;
+    if (this.props.resumeBasicInfo && this.props.resumeBasicInfo.description) {
+      aboutContent = this.renderAboutText(this.props.resumeBasicInfo.description);
     }
 
     return (
@@ -26,20 +37,20 @@ class About extends Component {
               <div className="polaroid">
                 <span style={{ cursor: "auto" }}>
                   <img
-                    height="250px"
+                    size="300%"
                     src={profilepic}
-                    alt="Avatar placeholder"
+                    alt="portrait"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={yogaIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={reactIcon}
+                    icon={plantIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={artIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>
@@ -77,10 +88,10 @@ class About extends Component {
                     }}
                   >
                     <br />
-                    <span className="wave">{hello} :) </span>
+                    <span className="wave">{hello}</span>
                     <br />
                     <br />
-                    {about}
+                    {aboutContent}
                   </div>
                 </div>
               </div>
