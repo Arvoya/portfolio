@@ -5,6 +5,13 @@ import reactIcon from "@iconify/icons-logos/react";
 import vueIcon from "@iconify/icons-logos/vue";
 
 class About extends Component {
+  
+  renderAboutText(about) {
+    return about.split('\n').map((paragraph, index) => (
+      <p key={index}>{paragraph}</p>
+    ));
+  }
+
   render() {
     if (this.props.sharedBasicInfo) {
       var profilepic = "images/" + this.props.sharedBasicInfo.image;
@@ -13,7 +20,11 @@ class About extends Component {
       var sectionName = this.props.resumeBasicInfo.section_name.about;
       var hello = this.props.resumeBasicInfo.description_header;
       var about = this.props.resumeBasicInfo.description;
-      console.log(about)
+    }
+
+    let aboutContent = null;
+    if (this.props.resumeBasicInfo && this.props.resumeBasicInfo.description) {
+      aboutContent = this.renderAboutText(this.props.resumeBasicInfo.description);
     }
 
     return (
@@ -81,7 +92,7 @@ class About extends Component {
                     <span className="wave">{hello}</span>
                     <br />
                     <br />
-                    {about}
+                    {aboutContent}
                   </div>
                 </div>
               </div>
