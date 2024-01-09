@@ -5,6 +5,26 @@ import {
 } from "react-vertical-timeline-component";
 import "react-vertical-timeline-component/style.min.css";
 import Badge from "react-bootstrap/Badge";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
+
+
+const customStyles = {
+  futureOpportunitiesContent: {
+    background: '#fff', // This will set the background to white
+    padding: '15px', // Add padding for visual comfort
+    borderRadius: '4px', // Optional: if you want rounded corners
+    boxShadow: '0 3px 10px rgba(0, 0, 0, 0.2)' // Optional: if you want to add a subtle shadow
+  },
+  titleStyle: {
+    fontSize: '1.2rem' // Adjust font size for titles
+  },
+  subtitleStyle: {
+    fontSize: '1rem' // Adjust font size for subtitles
+  }
+};
+
+
 
 class Experience extends Component {
   render() {
@@ -26,6 +46,7 @@ class Experience extends Component {
         ));
 
         return (
+          
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
             date={work.years}
@@ -86,6 +107,24 @@ class Experience extends Component {
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
+          <VerticalTimelineElement
+  className="vertical-timeline-element--work future-opportunities-bg"
+  date="Future Date"
+  iconStyle={{ background: '#FF7F50', color: '#fff' }}
+  icon={<FontAwesomeIcon icon={faLaptopCode} />}
+  // Add the contentStyle prop with your new class for background
+  contentStyle={{ background: '#fff', color: '#000' }} 
+>
+  <div>
+    <h3>Digital Wellness Architect</h3>
+    <h4 className="vertical-timeline-element-title">
+    Your Company's Name
+    </h4>
+    <p>Seeking opportunities to develop innovative software solutions that enhance holistic health practices, contributing to the wellbeing of individuals in the digital age.</p>
+  </div>
+</VerticalTimelineElement>
+
+
             {work}
             {education}
           </VerticalTimeline>
