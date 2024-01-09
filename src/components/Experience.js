@@ -9,20 +9,6 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLaptopCode } from '@fortawesome/free-solid-svg-icons';
 
 
-const customStyles = {
-  futureOpportunitiesContent: {
-    background: '#fff', // This will set the background to white
-    padding: '15px', // Add padding for visual comfort
-    borderRadius: '4px', // Optional: if you want rounded corners
-    boxShadow: '0 3px 10px rgba(0, 0, 0, 0.2)' // Optional: if you want to add a subtle shadow
-  },
-  titleStyle: {
-    fontSize: '1.2rem' // Adjust font size for titles
-  },
-  subtitleStyle: {
-    fontSize: '1rem' // Adjust font size for subtitles
-  }
-};
 
 
 
