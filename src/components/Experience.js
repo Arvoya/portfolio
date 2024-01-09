@@ -8,26 +8,23 @@ import Badge from "react-bootstrap/Badge";
 
 class Experience extends Component {
   render() {
-    if (this.props.resumeExperience && this.props.resumeBasicInfo) {
-      var sectionName = this.props.resumeBasicInfo.section_name.experience;
-      var work = this.props.resumeExperience.map(function (work, i) {
-        const technologies = work.technologies;
-        const mainTechnologies = work.mainTech;
+    let sectionName, work, education;
 
-        var mainTech = mainTechnologies.map((technology, i) => {
-          return (
-            <Badge pill className="main-badge mr-2 mb-2" key={i}>
-              {technology}
-            </Badge>
-          );
-        });
-        var tech = technologies.map((technology, i) => {
-          return (
-            <Badge pill className="experience-badge mr-2 mb-2" key={i}>
-              {technology}
-            </Badge>
-          );
-        });
+    if (this.props.resumeExperience && this.props.resumeBasicInfo) {
+      sectionName = this.props.resumeBasicInfo.section_name.experience;
+      
+      work = this.props.resumeExperience.map((work, i) => {
+        const mainTech = work.mainTech.map((technology, i) => (
+          <Badge pill className="main-badge mr-2 mb-2" key={i}>
+            {technology}
+          </Badge>
+        ));
+        const tech = work.technologies.map((technology, i) => (
+          <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+            {technology}
+          </Badge>
+        ));
+
         return (
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
@@ -37,29 +34,43 @@ class Experience extends Component {
               color: "#fff",
               textAlign: "center",
             }}
-            icon={<i className="fab fa-angular experience-icon"></i>}
+            icon={<i className="fas fa-leaf experience-icon"></i>}
             key={i}
           >
             <div style={{ textAlign: "left", marginBottom: "4px" }}>
               {mainTech}
             </div>
-
-            <h3
-              className="vertical-timeline-element-title"
-              style={{ textAlign: "left" }}
-            >
+            <h3 className="vertical-timeline-element-title" style={{ textAlign: "left" }}>
               {work.title}
             </h3>
-            <h4
-              className="vertical-timeline-element-subtitle"
-              style={{ textAlign: "left" }}
-            >
+            <h4 className="vertical-timeline-element-subtitle" style={{ textAlign: "left" }}>
               {work.company}
             </h4>
-            <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+            <div style={{ textAlign: "left", marginTop: "15px" }}>
+              {tech}
+            </div>
           </VerticalTimelineElement>
         );
       });
+    }
+
+    if (this.props.resumeEducation) {
+      education = this.props.resumeEducation.map((edu, i) => (
+        <VerticalTimelineElement
+          className="vertical-timeline-element--education"
+          date={edu.year}
+          iconStyle={{ background: "#2196f3", color: "#fff", textAlign: "center" }}
+          icon={<i className="fas fa-graduation-cap experience-icon"></i>}
+          key={i}
+        >
+          <h3 className="vertical-timeline-element-title" style={{ textAlign: "left" }}>
+            {edu.degree}
+          </h3>
+          <h4 className="vertical-timeline-element-subtitle" style={{ textAlign: "left" }}>
+            {edu.institution}
+          </h4>
+        </VerticalTimelineElement>
+      ));
     }
 
     return (
@@ -76,16 +87,7 @@ class Experience extends Component {
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
             {work}
-            <VerticalTimelineElement
-              iconStyle={{
-                background: "#AE944F",
-                color: "#fff",
-                textAlign: "center",
-              }}
-              icon={
-                <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
-              }
-            />
+            {education}
           </VerticalTimeline>
         </div>
       </section>
