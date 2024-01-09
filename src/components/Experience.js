@@ -66,8 +66,8 @@ class Experience extends Component {
         <VerticalTimelineElement
           className="vertical-timeline-element--education"
           date={edu.year}
-          iconStyle={{ background: "#2196f3", color: "#fff", textAlign: "center" }}
-          icon={<i className="fas fa-graduation-cap experience-icon"></i>}
+          iconStyle={{background: "#2196f3",  color: "#fff", textAlign: "center" }}
+          icon={<i className="fas fa-graduation-cap experience-icon education"></i>}
           key={i}
         >
           <h3 className="vertical-timeline-element-title" style={{ textAlign: "left" }}>
@@ -93,24 +93,22 @@ class Experience extends Component {
         </div>
         <div className="col-md-8 mx-auto">
           <VerticalTimeline>
-          <VerticalTimelineElement
-  className="vertical-timeline-element--work future-opportunities-bg"
-  date="Future Date"
-  iconStyle={{ background: '#FF7F50', color: '#fff' }}
-  icon={<FontAwesomeIcon icon={faLaptopCode} />}
-  // Add the contentStyle prop with your new class for background
-  contentStyle={{ background: '#fff', color: '#000' }} 
->
-  <div>
-    <h3>Digital Wellness Architect</h3>
-    <h4 className="vertical-timeline-element-title">
-    Your Company's Name
-    </h4>
-    <p>Seeking opportunities to develop innovative software solutions that enhance holistic health practices, contributing to the wellbeing of individuals in the digital age.</p>
-  </div>
-</VerticalTimelineElement>
-
-
+            <VerticalTimelineElement
+              className="vertical-timeline-element--futureWork future-opportunities-bg"
+              date="Future Date"
+              iconStyle={{ background: '#FF7F50', color: '#fff' }}
+              icon={<FontAwesomeIcon icon={faLaptopCode} className="experience-icon"/>}
+              // Add the contentStyle prop with your new class for background
+              contentStyle={{ background: '#fff', color: '#000' }} 
+            >
+              <div>
+                <h3>Digital Wellness Architect</h3>
+                <h4 className="vertical-timeline-element-title">
+                Your Company's Name
+                </h4>
+                <p style={{fontSize: '120%'}}>Seeking opportunities to develop innovative software solutions that enhance holistic health practices, contributing to the wellbeing of individuals in the digital age.</p>
+              </div>
+            </VerticalTimelineElement>
             {work}
             {education}
           </VerticalTimeline>

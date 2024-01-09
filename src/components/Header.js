@@ -47,19 +47,19 @@ class Header extends Component {
         <Nav activeKey="/home" fill style={{ position: 'absolute', top: 10, right: 10 }}>
           <Nav.Item> 
             <LinkContainer to="/">
-              <Nav.Link href="/">Home</Nav.Link>
+              <Nav.Link href="/" className="custom-nav-link">Home</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>        
             <LinkContainer to="/about">
-              <Nav.Link eventKey="about">About</Nav.Link>
+              <Nav.Link eventKey="about" className="custom-nav-link">About</Nav.Link>
             </LinkContainer>
           </Nav.Item>
           <Nav.Item>
             <Switch 
               checked={this.state.checked}
               onChange={this.onThemeSwitchChange}
-              offColor="#baaa80"
+              offColor="#efe1bd"
               onColor="#353535"
               className="react-switch mx-auto"
               width={90}
@@ -67,7 +67,7 @@ class Header extends Component {
               uncheckedIcon={
                 <span
                   className="iconify"
-                  data-icon="twemoji:owl"
+                  data-icon="akar-icons:moon-fill"
                   data-inline="false"
                   style={{
                     display: "block",
@@ -75,7 +75,7 @@ class Header extends Component {
                     fontSize: 25,
                     textAlign: "end",
                     marginLeft: "20px",
-                    color: "#353239",
+                    color: "white",
                   }}
                 ></span>
               }

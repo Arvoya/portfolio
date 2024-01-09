@@ -33,9 +33,9 @@ body[data-theme="dark"] {
    }
 
    header {
-      background-color: #494949;
+      background-image: url(../../../public/assets/background-Dark.png);
       h1 {
-         color: white;
+         color: #575655;
       }
    }
 
@@ -78,6 +78,19 @@ body[data-theme="dark"] {
          color: white;
       }
 
+      .vertical-timeline-element--education > span {
+         background: #2196f3 !important;
+      }
+   
+      
+      .vertical-timeline-element--work > span {
+         background: #ae944f !important;
+      }
+
+      .vertical-timeline-element--futureWork > span {
+         background: #ff7f50 !important;
+      }
+
       .main-badge {
          background: #919191 !important;
       }
@@ -105,3 +118,4 @@ body[data-theme="dark"] {
       color: white;
    }
 }
+
