@@ -98,15 +98,14 @@ class Experience extends Component {
               date="Future Date"
               iconStyle={{ background: '#FF7F50', color: '#fff' }}
               icon={<FontAwesomeIcon icon={faLaptopCode} className="experience-icon"/>}
-              // Add the contentStyle prop with your new class for background
-              contentStyle={{ background: '#fff', color: '#000' }} 
+              contentStyle={{ background: '#fff', color: '#000' }}
             >
               <div>
                 <h3>Digital Wellness Architect</h3>
                 <h4 className="vertical-timeline-element-title">
                 Your Company's Name
                 </h4>
-                <p style={{fontSize: '120%'}}>Seeking opportunities to develop innovative software solutions that enhance holistic health practices, contributing to the wellbeing of individuals in the digital age.</p>
+                <p style={{fontSize: '120%'}}>Seeking opportunities to develop innovative software solutions that enhance holistic health practices, contributing to the well-being of individuals in the digital age.</p>
               </div>
             </VerticalTimelineElement>
             {work}
