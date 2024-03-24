@@ -17,62 +17,105 @@
       "image": "headshot.jpg"
     },
     "skills": {
-      "icons": [
+      "Languages": {
+        "icons": [
+          {
+            "name": "HTML 5",
+            "class": "devicon-html5-plain",
+            "level": "95"
+          },
+          {
+            "name": "CSS 3",
+            "class": "devicon-css3-plain",
+            "level": "95"
+          },
+          {
+            "name": "JavaScript",
+            "class": "devicon-javascript-plain",
+            "level": "70"
+          },
         {
-          "name": "HTML 5",
-          "class": "devicon-html5-plain",
-          "level": "95"
-        },
-        {
-          "name": "CSS 3",
-          "class": "devicon-css3-plain",
-          "level": "95"
-        },
-        {
-          "name": "JavaScript",
-          "class": "devicon-javascript-plain",
+          "name": "Swift",
+          "class": "devicon-swift-plain",
           "level": "70"
-        },
+        }
+        ]
+      },
+      "Frameworks/Libraries": {
+        "icons": [
         {
           "name": "React",
           "class": "devicon-react-plain",
           "level": "70"
         },
         {
-          "name": "Swift",
-          "class": "devicon-swift-plain",
-          "level": "70"
-        },
-        {
-          "name": "VS Code",
-          "class": "devicon-vscode-plain",
-          "level": "70"
-        },
-        {
-          "name": "Github",
-          "class": "devicon-github-plain",
-          "level": "70"
-        },
-        {
-          "name": "Git",
-          "class": "devicon-git-plain",
-          "level": "70"
-        },
-        {
-          "name": "Vim Motions",
-          "class": "devicon-vim-plain",
-          "level": "70"
-        },
-        {
-          "name": "Xcode",
-          "class": "devicon-xcode-plain",
-          "level": "70"
-        },
-        {
           "name": "Bootstrap",
           "class": "devicon-bootstrap-plain",
           "level": "70"
+        },
+        {
+          "name": "Express",
+           "class": "devicon-express-original",
+          "level": "70"
         }
+        ]
+      },
+      "Development Tools/Version Control": {
+        "icons": [
+            {
+              "name": "VS Code",
+              "class": "devicon-vscode-plain",
+              "level": "70"
+            },
+            {
+              "name": "Neovim",
+              "class": "devicon-neovim-plain",
+              "level": "70"
+            },
+            {
+              "name": "Xcode",
+              "class": "devicon-xcode-plain",
+              "level": "70"
+            },
+            {
+              "name": "IntelliJ",
+              "class": "devicon-intellij-plain",
+              "level": "70"
+            },
+            {
+              "name": "Github",
+              "class": "devicon-github-plain",
+              "level": "70"
+            },
+            {
+              "name": "Git",
+              "class": "devicon-git-plain",
+              "level": "70"
+            }
+        ]
+      },
+      "Runtime Environments": {
+        "icons": [
+          {
+            "name": "Node.js",
+            "class": "devicon-nodejs-plain-wordmark",
+            "level": "70"
+          },
+          {
+            "name": "Deno",
+            "class": "devicon-denojs-plain",
+            "level": "70"
+          }
+        ]
+      },
+      "Databases": {
+        "icons": [
+          {
+            "name": "MongoDB",
+            "class": "devicon-mongodb-plain",
+            "level": "70"
+          }
       ]
+      }
     }
   }

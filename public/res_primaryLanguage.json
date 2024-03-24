@@ -10,32 +10,52 @@
       }
     },
     "projects": [
-      
+
       {
-        "title": "Routine Revive",
-        "startDate": "2023",
-        "description": "Routine Revive is a website built to help you create a daily routine that works for you and your lifestyle goals. Visit the website to go back and look at the routine you have built or adjust it whenever necessary. Set goals, intentions, and log your experiences.",
+        "title": "S'more Fun",
+        "startDate": "2024",
+        "description": "S'more Fun is a user-friendly web application designed to simplify outdoor adventure planning for beginner campers and hikers. By providing essential information, resources, and community support in one convenient platform, S'more Fun aims to demystify the camping and hiking experience, making nature more accessible and less daunting for novices. ",
         "images": [
-          "images/portfolio/adventure/p1.jpeg",
-          "images/portfolio/adventure/RR1.png",
-          "images/portfolio/adventure/RR2.png"
+          "images/smoreFun/home.png",
+          "images/smoreFun/city.png",
+          "images/smoreFun/campsite.png",
+          "images/smoreFun/notebook.png"
         ],
-        "url": "https://github.com/ArvoyaDev/Routine-Revive",
+        "url": "https://smore-fun.netlify.app/",
+        "repo":[
+          {
+            "title": "Front end",
+            "url": "https://github.com/ArvoyaDev/smore-fun-front-end"
+          },
+          {
+            "title": "Back end",
+            "url": "https://github.com/ArvoyaDev/smore-fun-back-end"
+          }
+        ],
         "technologies": [
           {
-            "class": "devicon-html5-plain",
-            "name": "HTML 5"
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
           },
           {
-            "class": "devicon-css3-plain",
-            "name": "CSS 3"
+            "class": "devicon-express-original",
+            "name": "Express"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-nodejs-plain-wordmark",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
       }
+
     ],
     "experience": [
       {
