@@ -1,94 +1,122 @@
 {
-    "basic_info": {
-      "description_header": "Hello!",
-      "description": "I'm Isai Chaidez, a Digital Wellness Architect merging software engineering with holistic health practices. With a master's degree in Ayurvedic Sciences and a bachelor's in Herbal Sciences, my journey has led me to software development in Seattle, WA. My work aims to integrate the tranquility of yoga and meditation with the vibrancy of technology. \n\nMy mission is to create digital solutions that enhance wellness and balanced living. My portfolio showcases projects that marry traditional health wisdom with modern technology, emphasizing user-centric tools for holistic health. As a lifelong learner, I continuously delve into new technologies to refine my skills. Visit my work, discover my creative process, and explore the potential of digital wellness. Together, let's journey towards a healthier, interconnected world through technology.",
-      "section_name": {
-        "about": "About me",
-        "projects": "Projects",
-        "skills": "Skills",
-        "experience": "Experience"
-      }
+  "basic_info": {
+    "description_header": "Hello!",
+    "description": "I'm Isai Chaidez, a Digital Wellness Architect merging software engineering with holistic health practices. With a master's degree in Ayurvedic Sciences and a bachelor's in Herbal Sciences, my journey has led me to software development in Seattle, WA. My work aims to integrate the tranquility of yoga and meditation with the vibrancy of technology. \n\nMy mission is to create digital solutions that enhance wellness and balanced living. My portfolio showcases projects that marry traditional health wisdom with modern technology, emphasizing user-centric tools for holistic health. As a lifelong learner, I continuously delve into new technologies to refine my skills. Visit my work, discover my creative process, and explore the potential of digital wellness. Together, let's journey towards a healthier, interconnected world through technology.",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "Routine Revive",
+      "startDate": "August 2023",
+      "description": "Routine Revive is a website built to help you create a daily routine that works for you and your lifestyle goals. Visit the website to go back and look at the routine you have built or adjust it whenever necessary. Set goals, intentions, and log your experiences.",
+      "images": [
+        "./images/portfolio/adventure/p1.jpeg",
+        "./images/portfolio/adventure/RR1.png",
+        "./images/portfolio/adventure/RR2.png"
+      ],
+      "url": "https://arvoyadev.github.io/Routine-Revive/index.html",
+      "repo": [
+        {
+          "title": "Front end",
+          "url": "https://github.com/ArvoyaDev/Routine-Revive"
+        }
+      ],
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
     },
-    "projects": [
-
-      {
-        "title": "S'more Fun",
-        "startDate": "2024",
-        "description": "S'more Fun is a user-friendly web application designed to simplify outdoor adventure planning for beginner campers and hikers. By providing essential information, resources, and community support in one convenient platform, S'more Fun aims to demystify the camping and hiking experience, making nature more accessible and less daunting for novices. ",
-        "images": [
-          "images/smoreFun/home.png",
-          "images/smoreFun/city.png",
-          "images/smoreFun/campsite.png",
-          "images/smoreFun/notebook.png"
-        ],
-        "url": "https://smore-fun.netlify.app/",
-        "repo":[
-          {
-            "title": "Front end",
-            "url": "https://github.com/ArvoyaDev/smore-fun-front-end"
-          },
-          {
-            "title": "Back end",
-            "url": "https://github.com/ArvoyaDev/smore-fun-back-end"
-          }
-        ],
-        "technologies": [
-          {
-            "class": "devicon-mongodb-plain",
-            "name": "MongoDB"
-          },
-          {
-            "class": "devicon-express-original",
-            "name": "Express"
-          },
-          {
-            "class": "devicon-react-plain",
-            "name": "React"
-          },
-          {
-            "class": "devicon-nodejs-plain-wordmark",
-            "name": "Node.js"
-          },
-          {
-            "class": "devicon-bootstrap-plain",
-            "name": "Bootstrap"
-          }
-        ]
-      }
-
-    ],
-    "experience": [
-      {
-        "company": "Arvoya",
-        "title": "Founder and Holistic Health Practitioner",
-        "years": "06.2020 - Present",
-        "mainTech": [
-          "Ayurvedic Consultations",
-          "Wellness Program Development"
-        ],
-        "technologies": [
-          "Holistic Health Practices",
-          "Client Relationship Management",
-          "Public Speaking",
-          "Workshop Facilitation"
-        ]
-      },
-      {
-        "company": "Various Studios",
-        "title": "Ayurveda Lecturer and Workshop Facilitator",
-        "years": "08.2021 - Present",
-        "mainTech": [
-          "Yoga Philosophy",
-          "Sanskrit"
-        ],
-        "technologies": [
-          "Public Speaking",
-          "Workshop Planning and Execution",
-          "Educational Program Development"
-        ]
-      }
-    ],
-
+    {
+      "title": "S'more Fun",
+      "startDate": "March 2024",
+      "description": "S'more Fun is a user-friendly web application designed to simplify outdoor adventure planning for beginner campers and hikers. By providing essential information, resources, and community support in one convenient platform, S'more Fun aims to demystify the camping and hiking experience, making nature more accessible and less daunting for novices. ",
+      "images": [
+        "images/smoreFun/home.png",
+        "images/smoreFun/city.png",
+        "images/smoreFun/campsite.png",
+        "images/smoreFun/notebook.png"
+      ],
+      "url": "https://smore-fun.netlify.app/",
+      "repo": [
+        {
+          "title": "Front end",
+          "url": "https://github.com/ArvoyaDev/smore-fun-front-end"
+        },
+        {
+          "title": "Back end",
+          "url": "https://github.com/ArvoyaDev/smore-fun-back-end"
+        }
+      ],
+      "technologies": [
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "Arvoya",
+      "title": "Founder and Holistic Health Practitioner",
+      "years": "06.2020 - Present",
+      "mainTech": [
+        "Ayurvedic Consultations",
+        "Wellness Program Development"
+      ],
+      "technologies": [
+        "Holistic Health Practices",
+        "Client Relationship Management",
+        "Public Speaking",
+        "Workshop Facilitation"
+      ]
+    },
+    {
+      "company": "Various Studios",
+      "title": "Ayurveda Lecturer and Workshop Facilitator",
+      "years": "08.2021 - Present",
+      "mainTech": [
+        "Yoga Philosophy",
+        "Sanskrit"
+      ],
+      "technologies": [
+        "Public Speaking",
+        "Workshop Planning and Execution",
+        "Educational Program Development"
+      ]
+    }
+  ],
   "education": [
     {
       "institution": "Code Fellows",
@@ -106,4 +134,4 @@
       "year": "2015-2017"
     }
   ]
-  }
+}
