@@ -1,7 +1,7 @@
 {
   "basic_info": {
     "description_header": "Hello!",
-    "description": "I'm Isai Chaidez, a Digital Wellness Architect merging software engineering with holistic health practices. With a master's degree in Ayurvedic Sciences and a bachelor's in Herbal Sciences, my journey has led me to software development in Seattle, WA. My work aims to integrate the tranquility of yoga and meditation with the vibrancy of technology. \n\nMy mission is to create digital solutions that enhance wellness and balanced living. My portfolio showcases projects that marry traditional health wisdom with modern technology, emphasizing user-centric tools for holistic health. As a lifelong learner, I continuously delve into new technologies to refine my skills. Visit my work, discover my creative process, and explore the potential of digital wellness. Together, let's journey towards a healthier, interconnected world through technology.",
+    "description": "Hi, I'm Isai Chaidez, a Digital Wellness Architect based in Seattle, WA. I specialize in blending the serenity of yoga and meditation with the dynamic world of technology. My work is centered on developing innovative tools that bridge traditional health wisdom with contemporary technology, prioritizing user-friendly applications for holistic health. Let's work together to leave the world better for generations to come.",
     "section_name": {
       "about": "About me",
       "projects": "Projects",
@@ -82,6 +82,49 @@
         {
           "class": "devicon-bootstrap-plain",
           "name": "Bootstrap"
+        }
+      ]
+    },
+    {
+      "title": "Terminal Casino",
+      "startDate": "April 2024",
+      "description": "A solo player text based casino app that encourages the user to have healthier gambling habits. The user will earn `bits` by solving math equations and use those `bits` to play casino games.",
+      "images": [
+        "images/terminal-casino/TCasino-logo.png",
+        "images/terminal-casino/login.png",
+        "images/terminal-casino/play.png"
+      ],
+      "url": "NA",
+      "repo": [
+        {
+          "title": "CLI",
+          "url": "https://github.com/T-Casino-Inc/t-casino-cli"
+        },
+        {
+          "title": "Back end",
+          "url": "https://github.com/T-Casino-Inc/terminal-casino-backend"
+        }
+      ],
+      "technologies": [
+        {
+          "class": "devicon-dynamodb-plain",
+          "name": "DynamoDB"
+        },
+        {
+          "class": "devicon-openapi-plain",
+          "name": "OpenAPI"
+        },
+        {
+          "class": "devicon-amazonwebservices-plain-wordmark",
+          "name": "AWS"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node.js"
         }
       ]
     }

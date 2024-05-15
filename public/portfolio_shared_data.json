@@ -1,48 +1,50 @@
 {
-    "basic_info": {
-      "name": "Isai Chaidez",
-      "titles": [ "Digital Wellness Architect: Merging Software Engineering with Holistic Health" ],
-      "social": [
+  "basic_info": {
+    "name": "Isai Chaidez",
+    "titles": [
+      "Digital Wellness Architect: Merging Software Engineering with Holistic Health"
+    ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/Arvoya",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/ichaidez/",
+        "class": "fab fa-linkedin"
+      }
+    ],
+    "image": "headshot.jpg"
+  },
+  "skills": {
+    "Languages": {
+      "icons": [
         {
-          "name": "github",
-          "url": "https://github.com/Arvoya",
-          "class": "fab fa-github"
+          "name": "HTML 5",
+          "class": "devicon-html5-plain",
+          "level": "95"
         },
         {
-          "name": "linkedin",
-          "url": "https://www.linkedin.com/in/ichaidez/",
-          "class": "fab fa-linkedin"
-        }
-      ],
-      "image": "headshot.jpg"
-    },
-    "skills": {
-      "Languages": {
-        "icons": [
-          {
-            "name": "HTML 5",
-            "class": "devicon-html5-plain",
-            "level": "95"
-          },
-          {
-            "name": "CSS 3",
-            "class": "devicon-css3-plain",
-            "level": "95"
-          },
-          {
-            "name": "JavaScript",
-            "class": "devicon-javascript-plain",
-            "level": "70"
-          },
+          "name": "CSS 3",
+          "class": "devicon-css3-plain",
+          "level": "95"
+        },
         {
-          "name": "Swift",
-          "class": "devicon-swift-plain",
+          "name": "JavaScript",
+          "class": "devicon-javascript-plain",
+          "level": "70"
+        },
+        {
+          "name": "TypeScript",
+          "class": "devicon-typescript-plain",
           "level": "70"
         }
-        ]
-      },
-      "Frameworks/Libraries": {
-        "icons": [
+      ]
+    },
+    "Frameworks/Libraries": {
+      "icons": [
         {
           "name": "React",
           "class": "devicon-react-plain",
@@ -55,67 +57,92 @@
         },
         {
           "name": "Express",
-           "class": "devicon-express-original",
+          "class": "devicon-express-original",
+          "level": "70"
+        },
+        {
+          "name": "Socket.io",
+          "class": "devicon-socketio-original",
+          "level": "70"
+        },
+        {
+          "name": "Jest",
+          "class": "devicon-jest-plain",
+          "level": "70"
+        },
+        {
+          "name": "Nodemon",
+          "class": "devicon-nodemon-plain",
           "level": "70"
         }
-        ]
-      },
-      "Development Tools/Version Control": {
-        "icons": [
-            {
-              "name": "VS Code",
-              "class": "devicon-vscode-plain",
-              "level": "70"
-            },
-            {
-              "name": "Neovim",
-              "class": "devicon-neovim-plain",
-              "level": "70"
-            },
-            {
-              "name": "Xcode",
-              "class": "devicon-xcode-plain",
-              "level": "70"
-            },
-            {
-              "name": "IntelliJ",
-              "class": "devicon-intellij-plain",
-              "level": "70"
-            },
-            {
-              "name": "Github",
-              "class": "devicon-github-plain",
-              "level": "70"
-            },
-            {
-              "name": "Git",
-              "class": "devicon-git-plain",
-              "level": "70"
-            }
-        ]
-      },
-      "Runtime Environments": {
-        "icons": [
-          {
-            "name": "Node.js",
-            "class": "devicon-nodejs-plain-wordmark",
-            "level": "70"
-          },
-          {
-            "name": "Deno",
-            "class": "devicon-denojs-plain",
-            "level": "70"
-          }
-        ]
-      },
-      "Databases": {
-        "icons": [
-          {
-            "name": "MongoDB",
-            "class": "devicon-mongodb-plain",
-            "level": "70"
-          }
       ]
-      }
+    },
+    "Development Tools/Version Control": {
+      "icons": [
+        {
+          "name": "VS Code",
+          "class": "devicon-vscode-plain",
+          "level": "70"
+        },
+        {
+          "name": "Neovim",
+          "class": "devicon-neovim-plain",
+          "level": "70"
+        },
+        {
+          "name": "IntelliJ",
+          "class": "devicon-intellij-plain",
+          "level": "70"
+        },
+        {
+          "name": "Github",
+          "class": "devicon-github-plain",
+          "level": "70"
+        },
+        {
+          "name": "Git",
+          "class": "devicon-git-plain",
+          "level": "70"
+        }
+      ]
+    },
+    "Runtime Environments": {
+      "icons": [
+        {
+          "name": "Node.js",
+          "class": "devicon-nodejs-plain-wordmark",
+          "level": "70"
+        },
+        {
+          "name": "Deno",
+          "class": "devicon-denojs-plain",
+          "level": "70"
+        }
+      ]
+    },
+    "Databases": {
+      "icons": [
+        {
+          "name": "MongoDB",
+          "class": "devicon-mongodb-plain",
+          "level": "70"
+        },
+        {
+          "name": "PostgreSQL",
+          "class": "devicon-postgresql-plain",
+          "level": "70"
+        },
+        {
+          "name": "AWS",
+          "class": "devicon-amazonwebservices-plain",
+          "level": "70"
+        },
+        {
+          "name": "DynamoDB",
+          "class": "devicon-dynamodb-plain",
+          "level": "70"
+        }
+      ]
     }
   }
+}
