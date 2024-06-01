@@ -44,9 +44,10 @@
     {
       "title": "S'more Fun",
       "startDate": "March 2024",
-      "description": "S'more Fun is a user-friendly web application designed to simplify outdoor adventure planning for beginner campers and hikers. By providing essential information, resources, and community support in one convenient platform, S'more Fun aims to demystify the camping and hiking experience, making nature more accessible and less daunting for novices. ",
+      "description": "S'more Fun is a user-friendly web application designed to simplify outdoor adventure planning for beginner campers and hikers. By providing essential information, resources, and community support in one convenient platform, S'more Fun aims to demystify the camping and hiking experience, making nature more accessible and less daunting for novices. Now coded in Mobile as well with React-Native.",
       "images": [
         "images/smoreFun/home.png",
+        "images/smoreFun/sim4.gif",
         "images/smoreFun/city.png",
         "images/smoreFun/campsite.png",
         "images/smoreFun/notebook.png"
@@ -60,6 +61,10 @@
         {
           "title": "Back end",
           "url": "https://github.com/ArvoyaDev/smore-fun-back-end"
+        },
+        {
+          "title": "Mobile",
+          "url": "https://github.com/ArvoyaDev/smore-fun-mobile"
         }
       ],
       "technologies": [
