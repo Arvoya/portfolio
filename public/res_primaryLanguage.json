@@ -99,7 +99,7 @@
         "images/terminal-casino/login.png",
         "images/terminal-casino/play.png"
       ],
-      "url": "NA",
+      "url": "",
       "repo": [
         {
           "title": "CLI",
@@ -126,6 +126,51 @@
         {
           "class": "devicon-express-original",
           "name": "Express"
+        },
+        {
+          "class": "devicon-nodejs-plain-wordmark",
+          "name": "Node.js"
+        }
+      ]
+    },
+    {
+      "title": "City Greens",
+      "startDate": "June 2024",
+      "description": "City Greens is a web application that helps users find community gardens in their area. City Greens aims to connect people with nature and promote community engagement through urban gardening.",
+      "images": [
+        "images/city-greens/logo.png",
+        "images/city-greens/home.png",
+        "images/city-greens/search.png",
+        "images/city-greens/cart.png",
+        "images/city-greens/stripe.png"
+      ],
+      "url": "https://city-greens.netlify.app/",
+      "repo": [
+        {
+          "title": "Front end",
+          "url": "https://github.com/City-Greens/city-greens-frontend"
+        },
+        {
+          "title": "Back end",
+          "url": "https://github.com/City-Greens/city-greens-backend"
+        }
+      ],
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-oauth-plain-wordmark",
+          "name": "OAuth (Auth0)"
+        },
+        {
+          "class": "devicon-express-original",
+          "name": "Express"
+        },
+        {
+          "class": "devicon-postgresql-plain",
+          "name": "PostgreSQL"
         },
         {
           "class": "devicon-nodejs-plain-wordmark",
